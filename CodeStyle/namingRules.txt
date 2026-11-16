@@ -1,0 +1,78 @@
+NAMING RULES
+============
+Extracted from: "Learn C# FREE Tutorial Course Beginner to Advanced! [2026 - 12 HOURS]"
+https://www.youtube.com/watch?v=qZpMX8Re_2Q
+
+
+WHAT NAMING RULES ARE
+---------------------
+- Naming rules are the rules you define for yourself and then follow while
+  writing code.
+- The specific rules matter less than CONSISTENCY. Every class in the project
+  must follow the same scheme.
+- Mixing schemes (one function lower case, another snake_case, one field
+  PascalCase, another camelCase) creates confusion and makes code unreadable.
+- Code is case sensitive. Changing one character's case refers to something
+  completely different. Write code deliberately, as if it were an English test.
+
+
+CASE STYLES
+-----------
+- PascalCase : first letter capital, then lowercase, capital for every
+              following word.        e.g. PlayerName
+- camelCase  : same as Pascal, but the first letter is lowercase.
+                                     e.g. playerName
+- snake_case : words separated by underscores, all lowercase.
+                                     e.g. player_name
+- UPPER_SNAKE_CASE (SCREAMING_SNAKE_CASE): all uppercase, words separated by
+              underscores.          e.g. MAX_HEALTH
+
+
+WHAT TO USE FOR EACH SYMBOL (C# conventions used in the course)
+---------------------------------------------------------------
+- Classes / types ............. PascalCase
+- Functions / methods ......... PascalCase   (the C# standard)
+- Properties .................. PascalCase
+- Events ...................... PascalCase
+- Function parameters ......... camelCase
+- Fields ...................... camelCase
+- Constants ................... UPPER_SNAKE_CASE
+- Enums ....................... PascalCase type name; PascalCase values
+- Interfaces .................. PascalCase with a capital "I" prefix
+                                (e.g. IAttackable, IInteractable)
+- Extension method classes .... <TypeName>Extensions
+                                (e.g. TransformExtensions)
+- Anonymous type members ...... PascalCase, because they are properties
+- Namespaces .................. use them to avoid naming collisions between
+                                classes with the same name
+
+
+GENERAL NAMING GUIDELINES
+-------------------------
+- Spend time deciding on a proper name. Do not use the first name that comes
+  to mind; think about what the symbol actually represents.
+- A good name describes exactly what the variable is (e.g. moveSpeed), not
+  something meaningless (e.g. x).
+- Do NOT use single-letter names. The only exception is a loop iterator
+  (i, j) in a for loop.
+- Do NOT use acronyms or abbreviations. They seem clear while writing, but
+  weeks later you will not remember what they mean.
+- Do not be afraid of being verbose. A 20-character name that is accurate is
+  better than a short cryptic one. You do not get bonus points for compact code.
+- Do not be afraid to rename things. If a better name comes up later, rename
+  it (Visual Studio: Ctrl+R, Ctrl+R). Code is meant to adapt and grow.
+- Event names: start with "On" followed by what happened,
+  e.g. OnPlayerDamaged.
+- Booleans should read like a statement of fact (e.g. isGrounded, isMoving).
+- Keep naming consistent across the whole project; never mix styles.
+- Braces style (opening brace on the same line vs. a new line) is a personal
+  visual choice - pick one and apply it consistently.
+
+
+STRINGS AND IDENTIFIERS
+-----------------------
+- Never use strings as identifiers (object names, state names, keys).
+- Use a direct reference, enum, ScriptableObject, or component instead.
+- Use nameof(...) whenever you need the name of a type, field, or parameter
+  in code or in error messages; it is refactor-safe and compiler-checked.
+- Do not use numbers to represent states/behaviors; use a named enum instead.

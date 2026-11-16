@@ -1,0 +1,175 @@
+CLEAN CODE GUIDELINES
+=====================
+Extracted from: "Learn C# FREE Tutorial Course Beginner to Advanced! [2026 - 12 HOURS]"
+https://www.youtube.com/watch?v=qZpMX8Re_2Q
+
+
+WHAT CLEAN CODE IS
+------------------
+- Clean code = code that is easy to understand and easy to modify.
+- The intent of the code should be immediately obvious; reading it should
+  require no effort to work out what it does.
+- The most important ingredient is following a good, consistent set of
+  naming rules (see namingRules.txt).
+- Always choose descriptive names for every variable, function, class, etc.
+
+
+AVOID MAGIC NUMBERS
+-------------------
+- Do not use raw numbers directly in code with no explanation of what they mean.
+- Replace them with named local variables / constants, e.g.:
+    superDamageMultiplier = 2
+    attackDistance = 5
+    jumpDistance = 10
+- After the change the code should read like plain English:
+  "if distance is under attackDistance -> attack; if above jumpDistance -> jump".
+
+
+NEVER USE STRINGS AS IDENTIFIERS
+--------------------------------
+- Strings make mistakes extremely easy: invisible trailing spaces, case
+  differences, typos. The code compiles and the error is invisible.
+- Strings should only be used for actual text (player name, item name, etc.).
+- To identify an object use a direct reference, a ScriptableObject, an enum,
+  a component, or literally anything other than a string name.
+- When you do need a string for a type/field/parameter name, use nameof(...)
+  instead of a hardcoded literal. It survives refactoring and the compiler
+  catches typos.
+- If a string constant is unavoidable (e.g. JSON / HTTP), define a constant
+  and use the constant, never the literal.
+- Prefer enums over ints when a value represents a state/behavior; with enums
+  the meaning is readable and no explanatory comment is needed.
+
+
+MANAGE COMPLEXITY / INFORMATION HIDING
+--------------------------------------
+- Managing complexity is the main difficulty as a project grows.
+- The best tool for it is information hiding: expose as little as possible.
+- Default EVERYTHING to private; make it public only when you have a very
+  good reason.
+- Do not default to public fields just because it is convenient in the
+  Unity inspector; that lets every class in the codebase read and modify them.
+- If a field is only used inside its class, it must be private.
+- If a function is only called from inside its class, keep it private.
+- Instead of exposing a field, expose getter/setter functions or a property
+  so you control how the underlying data is modified (and can add logging).
+- Always write access modifiers explicitly. Do not rely on defaults - the
+  default differs depending on the kind of declaration (class, interface,
+  struct, enum, etc.).
+- In Unity, prefer [SerializeField] private fields over public fields.
+- Limiting what can change also reduces complexity: mark data that should
+  never change as const or readonly.
+
+
+SINGLE RESPONSIBILITY PRINCIPLE
+-------------------------------
+- Each class and each function should do one thing and one thing only.
+- Do not put enemy logic inside the player class; use a separate class.
+- Do not write 1000-line functions that do ten different things.
+- Heuristic: if the best name you can find for a function contains the word
+  "and", it is probably doing more than one thing and should be split.
+
+
+KEEP FUNCTIONS SHORT
+--------------------
+- If functions do one thing they are naturally short.
+- If your program is made mostly of 500-line functions there is room for
+  improvement.
+- Adapt to the situation: sometimes a slightly longer function is easier to
+  understand than artificially splitting it.
+
+
+GROUP RELATED LOGIC TOGETHER
+----------------------------
+- If several fields always belong together (e.g. player stats), put them in
+  their own custom type instead of passing three separate parameters around.
+- Data that belongs together should live together.
+
+
+COMMENTS
+--------
+- Aim to avoid comments. Well-written code should be self-documenting.
+- If you feel the need to write a comment, first try renaming variables /
+  functions to make the intent obvious.
+- Never write useless comments that just repeat what the code already says.
+- Comment the WHY, not the HOW. Explain why the code exists / what problem
+  it solves, not what each line does.
+- Comments must be kept up to date; stale comments are worse than none.
+- Comments are fine for extra information that cannot be expressed in code,
+  e.g. why something is done, or how a function is meant to be used.
+- If a function has many comments, that is usually a sign the code should be
+  refactored instead.
+
+
+DRY - DON'T REPEAT YOURSELF
+---------------------------
+- If you need the same code three or more times, extract it into a function.
+- Copy-pasting the exact same code 3-4 times is a signal to refactor.
+- Guidelines, not laws: copying something twice is sometimes fine.
+
+
+REFACTORING
+-----------
+- Refactoring = rewriting / reorganizing code to keep quality high.
+- Code is a living thing; it changes as the project grows.
+- Beginners think code must be perfect the first time. It does not.
+- Two-step process:
+    1. Get it working.
+    2. Then analyze it and improve it (better names, split functions,
+       extract data into its own type, etc.).
+- Writing imperfect code the first time is fine. Leaving it that way is not.
+- Constantly ask how the code could be improved and take the time to do it.
+- Renaming things is part of refactoring - do it whenever a better name
+  appears (Visual Studio: Ctrl+R, Ctrl+R).
+
+
+READABILITY OVER COMPACTNESS
+----------------------------
+- The goal of code is to be understandable, not compact.
+- Prefer a longer, clearer name over a short cryptic one.
+- Compact syntax (ternary operator, expression-bodied members, etc.) is fine
+  only when it does not sacrifice readability.
+- Do not sacrifice readability for a tiny performance gain.
+
+
+DECOUPLING
+----------
+- Decouple code as much as possible; it is one of the best ways to write
+  cleaner code.
+- Use events so that things can exist independently of each other
+  (e.g. the player works with or without a UI listening to it).
+- Game logic should not depend on the UI. The UI should observe the logic.
+- Restrict access to fields (private, event keyword, etc.) to stop other code
+  from reaching in and modifying state.
+
+
+INHERITANCE AND COMPOSITION
+---------------------------
+- Inheritance is powerful but easily abused; deep hierarchies become hard to
+  understand.
+- Prefer composition over inheritance for complex objects.
+- Compose objects from smaller pieces / interfaces rather than one huge class
+  with all the logic.
+- Mark a class sealed when it is never meant to be extended, so the compiler
+  enforces that rule and complexity stays limited.
+
+
+DESIGN PATTERNS
+---------------
+- Design patterns are reusable solutions to common programming problems.
+- Learn what exists (Singleton, Observer, Command, Factory, Object Pool,
+  Dependency Injection, Adapter/Wrapper, Composite, Lazy Initialization).
+- Do not reinvent the wheel; apply a known pattern when it fits.
+- Do not force patterns or memorize all of them; use them when needed.
+- A pattern is a tool - it can be used or abused (e.g. Singleton is global
+  data and can cause the same problems as globals).
+
+
+MISC
+----
+- Use the discard `_` for out values you do not care about; it makes intent
+  clear and improves readability.
+- Avoid hardcoded strings; use nameof.
+- Do not follow rules so rigidly that the code becomes worse. All guidelines
+  are guidelines, not unbreakable laws - adapt them to the code you write.
+- Recommended reading: "Code Complete" (Steve McConnell).

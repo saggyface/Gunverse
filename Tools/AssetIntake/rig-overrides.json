@@ -1,0 +1,51 @@
+{
+    "player": {
+        "viewmodelLocalPosition": {
+            "x": 0.0,
+            "y": -1.5499999523162842,
+            "z": 0.15000000596046448
+        },
+        "idleViewmodelLocalPosition": {
+            "x": 0.0,
+            "y": -1.6112244129180908,
+            "z": 0.05510205775499344
+        },
+        "viewmodelLocalEulerAngles": {
+            "x": -3.673469305038452,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "viewmodelScale": 1.0,
+        "idleRightHandLocalPosition": {
+            "x": 0.25999999046325684,
+            "y": -0.30000001192092896,
+            "z": 0.47999998927116394
+        },
+        "idleLeftHandLocalPosition": {
+            "x": -0.3008163273334503,
+            "y": -0.2795918583869934,
+            "z": 0.4595918357372284
+        },
+        "idleRightHandLocalEulerAngles": {
+            "x": 66.12244415283203,
+            "y": -73.46939086914063,
+            "z": -95.51020812988281
+        },
+        "idleLeftHandLocalEulerAngles": {
+            "x": 121.22449493408203,
+            "y": -84.48979949951172,
+            "z": -73.46939086914063
+        },
+        "gripRightHandLocalEulerOffset": {
+            "x": -11.020408630371094,
+            "y": -88.16326904296875,
+            "z": 0.0
+        },
+        "gripLeftHandLocalEulerOffset": {
+            "x": 22.040815353393555,
+            "y": 102.85713958740234,
+            "z": 22.040817260742188
+        }
+    },
+    "items": []
+}

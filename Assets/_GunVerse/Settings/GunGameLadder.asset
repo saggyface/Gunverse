@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbace7300b1da94a876a98a9eac3e3f, type: 3}
+  m_Name: GunGameLadder
+  m_EditorClassIdentifier: Assembly-CSharp::GunVerse.GunGameLadder
+  weapons:
+  - {fileID: 1855432539364403259, guid: adb99551a8af55648b98085fb41e88fc, type: 3}
+  - {fileID: 4568274117709387678, guid: 7b23a89e3450b4b448e849cb158b9e90, type: 3}
+  - {fileID: 3638228327352069780, guid: bbd0c550eb60db34daf21a74a46f4e93, type: 3}
+  - {fileID: 1870476234889857946, guid: 55c7899e315d9ab4db04f4e668f40f34, type: 3}
+  - {fileID: 7568581480711420535, guid: 432fb5eeb9996fc4fb49c6f817ec7d28, type: 3}
+  - {fileID: 3527279316426431243, guid: 4aed872c7aeb73b4aafbf643a68f1bc7, type: 3}
+  - {fileID: 8180389689599740419, guid: 725ea2020ab66554fa5e980ed288dc20, type: 3}
+  - {fileID: 5437483718231928908, guid: cee129b46e7f2d64aa817a3257e93d94, type: 3}
+  - {fileID: 5088470121744611393, guid: 8c1061cc765d18740a490aea8f661695, type: 3}
+  - {fileID: 5437483718231928908, guid: d22f57024bd9c3c42a858113501983f2, type: 3}
+  - {fileID: 3316283039394206193, guid: 5072ce093901aa84e9432b66f7a4418a, type: 3}
+  - {fileID: 7642368105678902400, guid: 11841e5ab57462f4797b6ea7d87f49da, type: 3}
+  - {fileID: 5437483718231928908, guid: a633c05a31186cd4c959dfc7ff43d4c5, type: 3}
+  - {fileID: 8807717341467621574, guid: 0e61854ca397d7048af605b27ae3d6fe, type: 3}
+  - {fileID: 5867407802882106771, guid: 6fa62258c608a2f458ad196ddbefead0, type: 3}
+  - {fileID: 5739150732178721192, guid: b8ce70c492facec4d89cf059580e8b51, type: 3}
+  - {fileID: 4609530109143365082, guid: b5a9f3bbb18934342b6c43ffc420eba7, type: 3}
+  - {fileID: 7707893699502771455, guid: 4afc66ec54c494a4588f37ee39507d34, type: 3}
+  - {fileID: 5437483718231928908, guid: 11caf9cd242537848b61c22b1093ce9e, type: 3}
+  - {fileID: 1726395450751105625, guid: f8f78a3f26638974f9fb88eaea5a1f99, type: 3}

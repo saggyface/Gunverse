@@ -1,0 +1,441 @@
+{
+  "items": [
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/SoupCanGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/can-YnowJvWqxE/can.glb",
+      "targetHeight": 0.16,
+      "materialColors": [
+        { "material": "LightGrey", "color": "#C7C9CC" },
+        { "material": "Grey", "color": "#5F6368" }
+      ],
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/SoupCanGun.png",
+      "labelKind": "Sleeve"
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/CerealBoxGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/box-HvjissDrdr/box.glb",
+      "targetSize": { "x": 0.2, "y": 0.3, "z": 0.08 },
+      "materialColors": [
+        { "material": "wood", "color": "#E0B42A" },
+        { "material": "rock", "color": "#B07A1F" }
+      ],
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/CerealBoxGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.58
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/MilkCartonGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/carton-T2QjC2ZQya/carton.glb",
+      "targetHeight": 0.38,
+      "materialColors": [
+        { "material": "purple", "color": "#315C9E" },
+        { "material": "_defaultMat", "color": "#FFFFFF" },
+        { "material": "white", "color": "#EAF0F4" }
+      ],
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/MilkCartonGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.48
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/BreadLoafGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/loaf-round-4BiXgXnxTY/loaf-round.glb",
+      "targetSize": { "x": 0.38, "y": 0.15, "z": 0.25 },
+      "materialColors": [
+        { "material": "brownDark", "color": "#6B3A16" },
+        { "material": "brown", "color": "#C78944" }
+      ],
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/BreadLoafGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.55,
+      "labelHeightFactor": 0.45
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/DetergentBottleGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/water-bottle-KpxDpidn1Z/water-bottle.glb",
+      "targetHeight": 0.46,
+      "materialColors": [
+        { "material": "Plastic", "color": "#2FA96D" },
+        { "material": "Grey", "color": "#E8ECEF" },
+        { "material": "Red", "color": "#C73C3C" }
+      ],
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/DetergentBottleGun.png",
+      "labelKind": "Sleeve"
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/TomatoCanGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/soda-can-KOLcdOATw6/soda-can.glb",
+      "targetHeight": 0.14,
+      "materialColors": [
+        { "material": "greyDark", "color": "#A7A9AC" },
+        { "material": "greyLight", "color": "#D0D2D5" },
+        { "material": "red", "color": "#C62828" },
+        { "material": "brownDarkest", "color": "#5A1717" }
+      ],
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/TomatoCanGun.png",
+      "labelKind": "Sleeve"
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/TVGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/television-9trLeWoBek/television.glb",
+      "targetHeight": 0.72,
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/TVGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.75
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/BatteryGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/battery-MYa3uWdwPU/battery.glb",
+      "targetHeight": 0.18,
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/BatteryGun.png",
+      "labelKind": "Sleeve",
+      "physicsMaterial": "Assets/_GunVerse/Physics/BouncyGunProp.asset"
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/SpeakerGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/speaker-small-YaVrUj51TV/speaker-small.glb",
+      "targetSize": { "x": 0.35, "y": 0.55, "z": 0.3 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/SpeakerGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.5,
+      "physicsMaterial": "Assets/_GunVerse/Physics/BouncyGunProp.asset"
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/KeyboardGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/computer-keyboard-vsqTUPFSw6/computer-keyboard.glb",
+      "targetSize": { "x": 0.45, "y": 0.05, "z": 0.16 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/KeyboardGun.png",
+      "labelKind": "Top",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.9
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/LaptopGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/laptop-GnbwSUiVty/laptop.glb",
+      "targetSize": { "x": 0.38, "y": 0.06, "z": 0.26 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/LaptopGun.png",
+      "labelKind": "Top",
+      "labelWidthFactor": 0.85,
+      "labelHeightFactor": 0.9
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/PhoneGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/smartphone-4DRZmTs3jq/smartphone.glb",
+      "targetSize": { "x": 0.08, "y": 0.16, "z": 0.012 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/PhoneGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.85,
+      "labelHeightFactor": 0.85
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/PrinterGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/printer-77K2TCL5Lz/printer.glb",
+      "targetSize": { "x": 0.45, "y": 0.3, "z": 0.4 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/PrinterGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.6
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/MicrowaveGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/kitchen-microwave-vUsvf2HGDv/kitchen-microwave.glb",
+      "targetSize": { "x": 0.55, "y": 0.35, "z": 0.4 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/MicrowaveGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.85,
+      "labelHeightFactor": 0.7
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/HeadphonesGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/headphones-PSsWSIAYIL/headphones.glb",
+      "targetSize": { "x": 0.24, "y": 0.22, "z": 0.12 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/HeadphonesGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.6
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/MouseGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/computer-mouse-V2Ebx3pvo4/computer-mouse.glb",
+      "targetSize": { "x": 0.07, "y": 0.04, "z": 0.11 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/MouseGun.png",
+      "labelKind": "Top",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.85
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/MonitorGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/monitor-PvSjEbz11k/monitor.glb",
+      "targetSize": { "x": 0.55, "y": 0.34, "z": 0.07 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/MonitorGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.8
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/ComputerGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/computer-7KNoiQlSxi/computer.glb",
+      "targetSize": { "x": 0.22, "y": 0.45, "z": 0.5 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/ComputerGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.7
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/RadioGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/radio-TPqvwkyWdV/radio.glb",
+      "targetSize": { "x": 0.36, "y": 0.22, "z": 0.16 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/RadioGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.85,
+      "labelHeightFactor": 0.7
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/ToasterGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/toaster-wALulTo6gm/toaster.glb",
+      "targetSize": { "x": 0.3, "y": 0.2, "z": 0.17 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/ToasterGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.6
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/ElectricOvenGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/electric-oven-AwUZBbqleJ/electric-oven.glb",
+      "targetSize": { "x": 0.62, "y": 0.62, "z": 0.58 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/ElectricOvenGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.7
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/WasherGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/washer-C7HZypH3D6/washer.glb",
+      "targetSize": { "x": 0.65, "y": 0.88, "z": 0.65 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/WasherGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.7
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/AirConditionerGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/air-conditioner-amFuyE3IF6/air-conditioner.glb",
+      "targetSize": { "x": 0.82, "y": 0.32, "z": 0.24 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/AirConditionerGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.7
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/LargeSpeakerGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/speaker-GWfUJDmiOO/speaker.glb",
+      "targetSize": { "x": 0.48, "y": 0.9, "z": 0.38 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/LargeSpeakerGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.7,
+      "physicsMaterial": "Assets/_GunVerse/Physics/BouncyGunProp.asset"
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/RouterGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/wireless-machine-OJffxxkMtZ/wireless-machine.glb",
+      "targetSize": { "x": 0.28, "y": 0.06, "z": 0.18 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/RouterGun.png",
+      "labelKind": "Top",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.8
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/FlipPhoneGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/phone-k2kgBepoMU/phone.glb",
+      "targetSize": { "x": 0.07, "y": 0.14, "z": 0.02 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/FlipPhoneGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.85,
+      "labelHeightFactor": 0.85
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/TV32Gun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/television-9trLeWoBek/television.glb",
+      "targetHeight": 0.44,
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/TV32Gun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.75
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/TV65Gun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/television-9trLeWoBek/television.glb",
+      "targetHeight": 0.83,
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/TV65Gun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.75
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/TV75Gun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/television-9trLeWoBek/television.glb",
+      "targetHeight": 0.96,
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/TV75Gun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.75
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/StarlinkDishGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/satellite-dish-IDRrztoAMB/satellite-dish.glb",
+      "targetSize": { "x": 0.65, "y": 0.55, "z": 0.3 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/StarlinkDishGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.6
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/GiftBoxGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/present-LVg3ynJDxa/present.glb",
+      "targetSize": { "x": 0.32, "y": 0.28, "z": 0.28 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/GiftBoxGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.6
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/TVBoxGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/empty-box-pZBpmjtvw8/empty-box.glb",
+      "targetSize": { "x": 0.6, "y": 0.4, "z": 0.35 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/TVBoxGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.55
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/InkBoxGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/empty-box-pZBpmjtvw8/empty-box.glb",
+      "targetSize": { "x": 0.12, "y": 0.08, "z": 0.05 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/InkBoxGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.7
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/TabletGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/computer-screen-V5Qo141OcB/computer-screen.glb",
+      "targetSize": { "x": 0.26, "y": 0.18, "z": 0.02 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/TabletGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.8
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/FridgeGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/kitchen-fridge-36ODvl4CIy/kitchen-fridge.glb",
+      "targetSize": { "x": 1.47, "y": 2.68, "z": 0.97 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/FridgeGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.82,
+      "labelHeightFactor": 0.72
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/DryerGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/dryer-VHaBW6HLMI/dryer.glb",
+      "targetSize": { "x": 0.65, "y": 0.88, "z": 0.65 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/DryerGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.82,
+      "labelHeightFactor": 0.48
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/CoffeeMachineGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/kitchen-coffee-machine-jBUiOz36vs/kitchen-coffee-machine.glb",
+      "targetSize": { "x": 0.32, "y": 0.42, "z": 0.34 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/CoffeeMachineGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.88,
+      "labelHeightFactor": 0.5
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/DeskChairGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/desk-chair-CKSz6PB1vO/desk-chair.glb",
+      "targetSize": { "x": 0.62, "y": 0.95, "z": 0.62 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/DeskChairGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.78,
+      "labelHeightFactor": 0.35
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/PalletGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/pallet-cUAsYHDqfD/pallet.glb",
+      "targetSize": { "x": 1.2, "y": 0.15, "z": 1.0 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/PalletGun.png",
+      "labelKind": "Top",
+      "labelWidthFactor": 0.8,
+      "labelHeightFactor": 0.75
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/TrashBinGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/trashcan-small-i7HDuYDLkx/trashcan-small.glb",
+      "targetSize": { "x": 0.42, "y": 0.62, "z": 0.42 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/TrashBinGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.78,
+      "labelHeightFactor": 0.45
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/BathroomSinkGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/bathroom-sink-square-w5ZdGNsUIq/bathroom-sink-square.glb",
+      "targetSize": { "x": 0.55, "y": 0.85, "z": 0.45 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/BathroomSinkGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.82,
+      "labelHeightFactor": 0.4
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/ToiletGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/toilet-QsQdZcnTsI/toilet.glb",
+      "targetSize": { "x": 0.42, "y": 0.78, "z": 0.7 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/ToiletGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.82,
+      "labelHeightFactor": 0.42
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/LargeProps/WhiteboardGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/wall-corkboard-U8yQZ9l0HZ/wall-corkboard.glb",
+      "targetSize": { "x": 1.81, "y": 1.41, "z": 0.08 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/WhiteboardGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.9,
+      "labelHeightFactor": 0.75
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/CardboardBoxSmallGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/empty-box-pZBpmjtvw8/empty-box.glb",
+      "targetSize": { "x": 0.45, "y": 0.35, "z": 0.4 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/CardboardBoxSmallGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.85,
+      "labelHeightFactor": 0.55
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/CardboardBoxMediumGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/empty-box-pZBpmjtvw8/empty-box.glb",
+      "targetSize": { "x": 0.7, "y": 0.55, "z": 0.55 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/CardboardBoxMediumGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.85,
+      "labelHeightFactor": 0.55
+    },
+    {
+      "itemPrefab": "Assets/_GunVerse/Prefabs/Items/CardboardBoxLargeGun.prefab",
+      "modelPath": "Assets/_GunVerse/Models/ThirdParty/PolyPizza/empty-box-pZBpmjtvw8/empty-box.glb",
+      "targetSize": { "x": 1.0, "y": 0.75, "z": 0.7 },
+      "labelTexture": "Assets/_GunVerse/Textures/ItemLabels/CardboardBoxLargeGun.png",
+      "labelKind": "FrontBack",
+      "labelWidthFactor": 0.85,
+      "labelHeightFactor": 0.55
+    }
+  ]
+}

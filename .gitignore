@@ -1,0 +1,39 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Builds/
+/Build/
+
+# Unity generated project/solution files
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# IDE folders
+.vs/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Crash reports and build metadata
+sysinfo.txt
+crashlytics-build.properties
+/[Aa]ssets/[Aa]ssetStoreTools*
